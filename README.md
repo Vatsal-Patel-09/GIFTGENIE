@@ -1,61 +1,70 @@
-# GIFTGENIE
+# Getting Started with Create React App
 
-## Overview
-GIFTGENIE is an AI-powered gifting e-commerce platform designed to simplify the gift selection process for users. By leveraging advanced machine learning algorithms and a user-friendly chatbot interface, GIFTGENIE provides personalized gift recommendations based on user preferences, occasions, and recipient characteristics.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
-- **AI-Powered Recommendations**: Utilizes machine learning to analyze user inputs and suggest relevant gift options.
-- **Interactive Chatbot**: Engages users through an intuitive chat interface for seamless interaction and assistance.
-- **Diverse Product Catalog**: Offers a wide range of gift categories, ensuring options for every occasion.
-- **User Profiles**: Allows users to create profiles to save preferences and enhance the recommendation process.
-- **Secure Checkout**: Implements secure payment options for a smooth purchasing experience.
+## Available Scripts
 
-## Technologies Used
-- **Frontend**: React.js for a dynamic user interface
-- **Backend**: Python with Flask for server-side logic
-- **AI/ML**: Developed using Google Gemini's self fine tuned modle "GIFTGENIE-V1-pro_v2.0" fine tuned on "models/gemini-1.5-flash-001-tuning" for recomendation of gifts
+In the project directory, you can run:
 
-## Installation
-To set up the project locally, clone the repository and follow the installation instructions:
+### `npm start`
 
-```bash
-git clone https://github.com/yourusername/giftgenie.git
-cd giftgenie
-```
-## Frontend Setup
-Navigate to the frontend directory:
-```bash
-cd giftgenie
-```
-Install dependencies:
-```bash
-npm install
-```
-Start the development server:
-```bash
-npm start
-```
-## Backend Setup
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Navigate to the backend directory:
-```bash
-cd backend
-```
-Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-Set up your environment variables. Create a .env file in the backend directory and add the following variables:
-```makefile
-MONGODB_URI=<your_mongodb_uri>
-SECRET_KEY=<your_secret_key>
-```
-Run the server:
-```bash
-python app.py
-```
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Contact
-For any inquiries or feedback, feel free to reach out to vatsalpatel952005@gmail.com or open an issue in the repository.
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
