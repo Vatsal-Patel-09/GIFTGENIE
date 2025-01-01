@@ -1,6 +1,6 @@
 # GIFTGENIE
 
-## Overview
+## This is edited
 GIFTGENIE is an AI-powered gifting e-commerce platform designed to simplify the gift selection process for users. By leveraging advanced machine learning algorithms and a user-friendly chatbot interface, GIFTGENIE provides personalized gift recommendations based on user preferences, occasions, and recipient characteristics.
 
 ## Features
